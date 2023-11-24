@@ -1,0 +1,400 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+body{
+    background-color: #202124;
+}
+
+a {
+    text-decoration: none;
+    color: #9aa0a6;
+}
+
+header {
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+    padding: 20px 25px;
+}
+
+header button a {
+    color: white;
+}
+
+#locds { 
+    border: none;
+    background-color: #202124;
+    color: white;
+}
+
+#locds:hover {
+    text-decoration: underline;
+}
+
+#exibEmail {
+    border: none;
+    background-color: red;
+}
+
+main#indexM{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#gimg {
+    width: 500px;
+    height: 250px;
+}
+#pesquisa {
+    width: 480px;
+    height: 34px;
+    border-radius: 17px;
+    color: white;
+    background-color: #202124;
+    border: 1px solid #4b4f52;
+    padding-left: 20px;
+}
+#pesquisa:hover {
+    background-color: #303336;
+    box-shadow: 2px 2px 10px #0f1011;
+}
+
+#achar {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+#achar button:hover{
+    text-decoration: underline;
+    box-shadow: 2px 2px 10px #0f1011
+}
+#pesquisa:focus {
+    border: none;
+    outline: none;
+    background-color: #303336;
+    box-shadow: 2px 2px 10px #0f1011;
+}
+
+div button {
+    border: none;
+    background-color: #3c4043;
+    color: white;
+    padding: 8px 10px;
+    font-size: 13px;
+}
+
+footer#indexF {
+    background-color: #171717;
+    border-bottom: 1px solid #3c4043;
+    font-size: 14px;
+    color: #9aa0a6;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#p1 {
+    color: #9aa0a6;
+    padding: 15px 30px;
+}
+
+#p2 {
+    border-top: 1px solid #3c4043;
+    padding: 15px 30px;
+}
+
+#sobre {
+    border: none;
+    background-color: #171717;
+    color: #9aa0a6;
+}
+
+footer#indexf a:hover {
+    text-decoration: underline;
+}
+
+body#blogin {
+    display: grid;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+form#nlogin {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #3c4043;
+    height: 525px;
+    width: 390px;
+    align-items: center;
+    text-align: center;
+    margin: 0px auto;
+    gap: 20px;
+}
+#parLogin {
+    font-size: 20px;
+}
+
+img#img_login {
+    height: 90px;
+    width: 110px;
+}
+
+a#aCriar {
+    border: none;
+    background-color: transparent;
+    color: white;
+    margin-right: 180px;
+}
+
+a#aCriar:hover {
+    text-decoration: underline;
+}
+a#aLogin {
+    border: none;
+    background-color: transparent;
+    color: white;
+
+}
+
+a#aLogin:hover {
+    text-decoration: underline;
+}
+
+#btnCadastrar {
+    background-color: rgba(25, 105, 218, 0.726);
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+#btnCadastrar:hover {
+    box-shadow: 2px 2px 8px #0f1011;
+}
+footer#flogin {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+#flogin p {
+    padding: 10px;
+}
+
+#labelemail {
+    margin-top: 10px;
+    margin-left: 3px;
+}
+
+.input-container {
+    position: relative;
+    margin: 50px auto;
+    width: 300px;
+  }
+  
+.input-container input[type="email"] {
+    font-size: 20px;
+    width: 100%;
+    border: 1px solid #e2dfdfa8;
+    padding: 6px 0px;
+    background-color: transparent;
+    outline: none;
+}
+  
+.input-container .label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #f3f0f0f4;
+    transition: all 0.2s ease;
+    pointer-events: none;
+}
+  
+.input-container input[type="email"]:focus ~ .label,
+.input-container input[type="email"]:valid ~ .label {
+    top: -30px;
+    font-size: 16px;
+    color: #f3f0f0f4;
+}
+  
+.input-container .underline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: transparent;
+    transform: scaleX(0);
+    transition: all 0.3s ease;
+}
+  
+.input-container input[type="email"]:focus ~ .underline,
+.input-container input[type="email"]:valid ~ .underline {
+    transform: scaleX(1);
+}
+  
+#btnEmail {
+    padding: 0;
+    border: none;
+    margin-top: 22px;
+    margin-right: 165px;
+    color: rgba(27, 114, 236, 0.922);
+    background-color: transparent;
+    font-size: 13px;
+}
+#btnEmail:hover {
+    text-decoration: underline;
+}
+
+
+#window_priv {
+    padding: 0;
+    border: none;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    margin-top: auto;
+}
+
+#imgAbout{
+    width: 200px;
+    height: 100px;
+    margin-right: 1650px;
+    margin-top: -10px ;
+}
+
+#missao {
+    padding: 50px;
+    font-size: 50px;
+    text-align: center;
+
+}
+
+#mainAbout h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+#mainAbout p {
+    font-size: 20px;
+    text-align: left;
+    padding: 15px;
+}  
+
+#voltarAbout {
+    border: none;
+    padding: 0;
+    margin-left: 20px;
+}
+
+#voltarAbout a {
+    color: rgb(48, 105, 240);
+}
+
+#voltarAbout a:hover {
+    text-decoration: underline;
+}
+
+
+#footerAbout {
+    padding: 10px;
+    margin: 0;
+    border: none;
+}
+
+#actionBody {
+    padding: 200px;
+}
+
+#aVoltar {
+    color: white;
+}
+  
+.input-password input[type="password"] {
+    font-size: 20px;
+    width: 100%;
+    border: 1px solid #e2dfdfa8;
+    padding: 6px 0px;
+    background-color: transparent;
+    outline: none;
+}
+  
+.input-password input[type="password"]:focus ~ .label,
+.input-password input[type="password"]:valid ~ .label {
+    top: -30px;
+    font-size: 16px;
+    color: #f3f0f0f4;
+}
+   
+.input-password input[type="password"]:focus ~ .underline,
+.input-password input[type="password"]:valid ~ .underline {
+    transform: scaleX(1);
+}
+
+.input-password .underline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: transparent;
+    transform: scaleX(0);
+    transition: all 0.3s ease;
+}
+.input-password .label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #f3f0f0f4;
+    transition: all 0.2s ease;
+    pointer-events: none;
+}
+.input-password {
+    position: relative;
+    margin: -30px auto;
+    width: 300px;
+}
+#labelpassword {
+    margin-top: 10px;
+    margin-left: 3px;
+}
+
+#btnLogar {
+    background-color: rgba(26, 90, 181, 0.726);
+    border-radius: 3px;
+    margin-top: 20px;
+    border: none;
+    color: white;
+    padding: 8px 10px;
+    font-size: 13px;  
+    margin-bottom: 20px;
+}
+
+#btnLogar:hover {
+    box-shadow: 2px 2px 8px #0f1011;
+}
+
+button#btnPass {
+    padding: 0px;
+    border: none;
+    margin-top: 22px;
+    margin-right: 165px;
+    margin-bottom: 30px;
+    color: rgba(27, 114, 236, 0.922);
+    background-color: transparent;
+    font-size: 13px;
+    
+}
+button#btnPass:hover {
+    text-decoration: underline;
+}
